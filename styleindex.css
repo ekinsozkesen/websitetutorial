@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  h2 {
+    color:rgb(255, 99, 71);
+    text-align: center;
+  }
+nav{
+  border-style: solid;
+  border-width: 1px 1px;
+  border-color: blue;
+  border-radius: 5px;
+  color:blue;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+#giris{
+  text-align:start;
+  font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+  /* This is a single-line comment */
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
