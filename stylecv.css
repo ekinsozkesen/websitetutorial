@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', "verdana", Courier;
+}
+
+body, html{
+  background-color: #ffffff;
+  height: 100%;
+  position: relative; 
+}
+
+/* *{
+    border: 1px aqua solid;
+} */
+
+
+#CV {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.photo {
+  background-image: url("images/profilfotograf.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover ;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#navbar{
+  text-align:right;
+  right: 2%;
+  width: 100%;
+  position: fixed;
+  top: -3%;
+  z-index: 3;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 1.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1.5s;
+  font-size: 125%;
+}
+
+#navbar a{color:white;
+  
+}
+
+#navbar a:link {
+  text-decoration: none;
+}
+#navbar a:hover{background-color: white;
+  color: black;
+}
+
+@-webkit-keyframes slide {
+  100% { top: 2%; }
+}
+
+@keyframes slide {
+  100% { top: 2%; }
+}
+
+
+ #MyHeader{
+    font-family: 'Georgia';
+    color: black;
+    font-size: 450%;
+    left: 1%;
+    position: flex;
+ }
+
+  
+.allall{
+  height: 100%;
+  width: 50%;
+  position: relative;
+  box-sizing: border-box;
+  margin-left: 4%;
+
+}
+
+.headings {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 150%;
+  
+}
+ 
+  
+  .infocv{
+    padding-top: 1%;
+  padding-bottom: 1%;
+
+  }
+  .infocv li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.contact{
+text-align:right;
+right: 2%;
+width: 100%;
+position: fixed;
+z-index: 3;
+bottom: 2%;
+}
+
+.contact img{
+  width: 1%;
+}

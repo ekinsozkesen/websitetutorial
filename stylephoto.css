@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', "verdana", Courier;
+}
+
+body, html{
+  background-color: #ffffff;
+  height: 100%;
+  position: relative; 
+  margin-left: 1%;
+}
+
+#navbar{
+    text-align:right;
+    right: 2%;
+    width: 100%;
+    position: fixed;
+    top: -3%;
+    z-index: 3;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1.5s;
+    font-size: 125%;
+  }
+  
+  #navbar a{color:black;
+    
+  }
+  
+  #navbar a:link {
+    text-decoration: none;
+  }
+  #navbar a:hover{background-color: black;
+    color:white;
+  }
+  
+  @-webkit-keyframes slide {
+    100% { top: 2%; }
+  }
+  
+  @keyframes slide {
+    100% { top: 2%; }
+  }
+
+
+#yazı{
+    font-family: 'Georgia';
+    position: relative;
+    box-sizing: border-box;
+    padding: 1%;
+    color:black;
+    opacity: 1;
+    font-size: 2.5em;
+    width: 50%;
+}
+
+#contact{
+     width: 50%;
+     position: relative;
+     box-sizing: border-box;
+     padding: 1%;
+     }
+#contact img{
+    right: 3%;
+    width: 7%;
+    position: absolute;
+    bottom: 3%;
+
+}
+.photo{
+    position: relative;
+    display: flex;
+}
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+    max-width: 100%;
+  }
+
+.column {
+    flex: 32%;
+    max-width: 32%;
+    padding: 0.5% 0.5%;}
+
+.column img {
+        margin-top: 2%;
+        vertical-align:middle;
+        max-width:100%;
+      }
+
+@media screen and (max-width: 900px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;}
+
+@media screen and (max-width: 600px) {
+            .column {
+              flex: 100%;
+              max-width: 100%;}

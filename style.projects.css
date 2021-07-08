@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', "verdana", Courier;
+}
+
+body, html{
+    background-color: #ffffff;
+    height: 100%;
+    position: relative; 
+  }
+
+.navbar{
+    text-align:right;
+    right: 2%;
+    width: 100%;
+    position: fixed;
+    top: -3%;
+    z-index: 3;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1.5s;
+    font-size: 125%;
+  }
+  
+  .navbar a{color:black;
+    
+  }
+  
+  .navbar a:link {
+    text-decoration: none;
+  }
+  .navbar a:hover{background-color: black;
+    color: white;
+  }
+
+  @-webkit-keyframes slide {
+    100% { top: 2%; }
+  }
+  
+  @keyframes slide {
+    100% { top: 2%; }
+  }
+
+
+.container ul{
+  padding:0%
+  margin:0%
+}
+
+.container ul li{
+  list-style: none;
+  float: left;
+  width: 30%;
+  height: 400px;
+  background:white;
+  margin: 3% 0.5% 0% 2% ;
+  box-sizing: border-box;
+  border: 1px solid rgb(132, 132, 134);
+  font-size: 150%;
+
+}
+.container ul li :hover{
+  opacity: 0.7;
+}
+
+.container ul .first li {
+  background-image: url("images/Projects/camasırmakınası.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+}
+
+.container ul .second li {
+  background-image: url("images/Projects/cookbuddy.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+}
+
+.container ul .third li {
+  background-image: url("images/Projects/kıtto.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+}
+
+.container ul .forth li {
+  background-image: url("images/Projects/hide.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+}
+
+.container ul .fifth li {
+  background-image: url("images/Projects/untitled.108.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+}
+
+.container ul .sixth li {
+  background-image: url("images/Projects/set.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+
+}
+
+
+@media screen and (max-width:1250px){
+  .container ul li{
+    width: 40%;
+    margin: 40px;
+  }
+}
+
+.container ul li .title{ 
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color:orange;
+  text-align: center;
+  opacity: 0;
+  color: white;
+}
+
+
+.container ul li .title:hover{ 
+  opacity: 1;
+}
+
+
+  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size:450%;
+    left: 1%;
+    position: flex;
+    margin-left: 4%;
+    
+  }
+  
+  /* .Proall{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 99%;
+    overflow:auto;
+  }
+  
+ .Image{ 
+     width: 30%;
+     height:40%;
+     border: solid orange;
+     background-image: url("images/profilfotograf.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover ;
+      box-sizing: border-box;
+      position: relative;
+      
+ } */
+
+
